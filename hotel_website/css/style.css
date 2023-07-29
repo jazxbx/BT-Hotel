@@ -50,7 +50,7 @@ p {
 }
 
 .text-secondary {
-  color:#333;
+  color: #333;
 }
 
 .lead {
@@ -245,7 +245,7 @@ p {
 
 #testimonials .container h2 {
   color: #fff;
-  margin: 0; 
+  margin: 0;
 }
 
 #testimonials .testimonial {
@@ -262,6 +262,54 @@ p {
   border-radius: 50%;
 }
 
+/* Contact Form */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+#contact-form .container {
+  /* width:100%; */
+  max-width: 100vw;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0 40px;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+#contact-form label {
+  margin-bottom: 20px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+#contact-info {
+  display: grid;
+  justify-content: center;
+}
+#contact-info .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+}
 
 /* Footer */
 
